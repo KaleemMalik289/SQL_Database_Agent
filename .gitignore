@@ -10,8 +10,6 @@ env.bak/
 venv.bak/
 
 # Environment Variables
-.env
-.env.local
 
 # Node
 node_modules/
@@ -29,3 +27,4 @@ yarn-error.log*
 .vscode/
 .idea/
 .DS_Store
+config.bat
