@@ -114,4 +114,4 @@ npm run dev
 
 ---
 *Developed with using React, FastAPI, and LangChain.*
-**Kaleem Malik | AI Engineer*
+**Kaleem Malik | AI Engineer**
