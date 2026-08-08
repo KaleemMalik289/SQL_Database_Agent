@@ -1,0 +1,41 @@
+.typing-indicator-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  max-width: fit-content;
+  margin-bottom: 24px;
+}
+
+.typing-bubble {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--glass-bg);
+  padding: 12px 16px;
+  border-radius: 18px;
+  border-bottom-left-radius: 4px;
+  border: 1px solid var(--glass-border);
+}
+
+.typing-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--primary-light);
+  border-radius: 50%;
+  animation: typingBounce 1.4s infinite ease-in-out both;
+}
+
+.typing-dot:nth-child(1) { animation-delay: -0.32s; }
+.typing-dot:nth-child(2) { animation-delay: -0.16s; }
+
+.typing-text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+@keyframes typingBounce {
+  0%, 80%, 100% { transform: scale(0); opacity: 0.4; }
+  40% { transform: scale(1); opacity: 1; }
+}
